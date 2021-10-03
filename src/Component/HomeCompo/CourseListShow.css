@@ -1,0 +1,27 @@
+.course {
+  width: 335px;
+  margin: 20px auto;
+
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px 1px gray;
+  transition: all 1s;
+}
+.course:hover {
+  transform: scale(1.05);
+}
+.course > img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.course > div {
+  position: relative;
+}
+.teacher {
+  width: 70px;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  top: -15;
+}
