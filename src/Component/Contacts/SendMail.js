@@ -2,6 +2,9 @@ import React from 'react';
 import { Button, Form } from 'react-bootstrap';
 
 const SendMail = () => {
+  
+  // This is mail submission from 
+
     return (
       <div className="w-75 mx-auto bg-info p-5 m-5 rounded-3">
         <h2>

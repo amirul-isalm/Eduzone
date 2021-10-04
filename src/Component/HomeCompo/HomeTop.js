@@ -5,9 +5,17 @@ import "./homeTop.css";
 
 const HomeTop = () => {
   return (
+
+    // this is home page top section.. 
+
+
     <div className="homeTop">
       <div>
         <div id="textContainer">
+
+          {/* website name  */}
+
+          
           <span id="name">
             <u>EduZone</u>
           </span>

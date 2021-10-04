@@ -13,6 +13,8 @@ const CourseList = () => {
         <br />
         <br />
 
+        {/* Home page show 4 data from array */}
+
         <div className="row ">
           {data.slice(0, 4).map((course) => (
             <CourseListShow key={course.id} course={course}></CourseListShow>

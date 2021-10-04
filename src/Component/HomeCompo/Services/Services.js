@@ -16,6 +16,7 @@ const Services = () => {
         <hr />
       </div>
       <div className="row mt-5 ">
+        {/* mapping all course data and show on courseListShow component  */}
         {data.map((course) => (
           <CourseListShow key={course.id} course={course}></CourseListShow>
         ))}

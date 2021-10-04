@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react"
 
 const LoadData = () => {
+
+    // This is Data fetch funtion .
+
     const [course, setCourse] = useState([])
     useEffect(() => {
         fetch("./Data.JSON")

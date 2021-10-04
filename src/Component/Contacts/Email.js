@@ -1,6 +1,9 @@
 import React from 'react';
 
 const Email = () => {
+  
+// contact details
+
     return (
       <div className="mt-5 pt-5">
         <h1>Contact Us</h1>

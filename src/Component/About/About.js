@@ -12,6 +12,9 @@ const About = () => {
       <div>
         <AboutCourse></AboutCourse>
         <div className='row py-5'>
+
+          {/* two component in a single row */}
+          
           <WhyChooseUs></WhyChooseUs>
           <Results></Results>
         </div>

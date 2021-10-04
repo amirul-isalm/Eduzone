@@ -2,8 +2,12 @@ import React from "react";
 import "./CourseListShow.css";
 
 
+
 const CourseListShow = (props) => {
-  const { title, id, courseImg, teacher, duration, type, information } =
+
+  // this is Course card
+
+  const { title,  courseImg, teacher, duration, type, information } =
     props.course;
   console.log(title);
   return (
